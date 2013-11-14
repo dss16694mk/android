@@ -4,6 +4,9 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
+		   
+  <remote  name="github"
+           fetch="git://github.com/" />
 
   <remote  name="cyanogen"
            fetch="git://review.mfunz.com"
@@ -276,17 +279,18 @@
   <project path="hardware/cm" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_hardware_invensense" groups="invensense" />
   <project path="hardware/libhardware" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_hardware_libhardware" groups="pdk" />
-  <project path="hardware/libhardware_legacy" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
+  <project path="hardware/libhardware_legacy"  remote="local" revision="jb43" name="LOSP/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/msm7k" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_hardware_msm7k" />
   <project path="hardware/qcom/audio" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_hardware_qcom_audio" groups="qcom" />
-  <project path="hardware/qcom/audio-caf" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_hardware_qcom_audio-caf" groups="caf" />
   <project path="hardware/qcom/bt" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/display" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_hardware_qcom_display" groups="qcom" />
-  <project path="hardware/qcom/display-caf" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_hardware_qcom_display-caf" groups="caf" />
+  <project path="hardware/qcom/display-caf" remote="local" revision="jb43" name="LOSP/android_hardware_qcom_display-caf" groups="caf" />
+  <project path="hardware/qcom/display-legacy" remote="local" revision="jb43" name="LOSP/android_hardware_qcom_display-legacy" />
   <project path="hardware/qcom/gps" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_hardware_qcom_gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" />
-  <project path="hardware/qcom/media" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_hardware_qcom_media" groups="qcom" />
-  <project path="hardware/qcom/media-caf" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_hardware_qcom_media-caf" groups="caf" />
+  <project path="hardware/qcom/media" remote="local" revision="jb43" name="LOSP/android_hardware_qcom_media" groups="qcom" />
+  <project path="hardware/qcom/media-caf" remote="local" revision="jb43" name="LOSP/android_hardware_qcom_media-caf" groups="caf" />
+  <project path="hardware/qcom/media-legacy" remote="local" revision="jb43" name="LOSP/android_hardware_qcom_media-legacy" />
   <project path="hardware/qcom/msm8960" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_hardware_qcom_msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/power" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_hardware_qcom_power" />
   <project path="hardware/qcom/sensors" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_hardware_qcom_sensors" />
@@ -467,4 +471,13 @@
   <project path="vendor/mk" name="MoKee/android_vendor_mk" />
   <project path="device/generic/goldfish" name="MoKee/android_device_generic_goldfish" groups="pdk" />
   <!-- Devices Paired End -->
+  <!-- LOSP Devices -->
+  <project path="device/xiaomi/mione_plus" name="LOSP/android_device_xiaomi_mione_plus" remote="github" revision="jb43" />
+  <project path="device/xiaomi/msm8660-common" name="LOSP/android_device_xiaomi_msm8660-common" remote="github" revision="jb43" />
+  
+  <!-- LOSP Device Vendors -->
+  <project path="vendor/xiaomi" name="LOSP/proprietary_vendor_xiaomi" remote="github" revision="jb43" />
+  <project path="vendor/qcom" name="LOSP/proprietary_vendor_qcom" remote="github" revision="jb43" />
+  <project path="vendor/broadcom" name="LOSP/proprietary_vendor_broadcom" remote="github" revision="jb43" />
+  
 </manifest>
