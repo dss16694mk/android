@@ -246,7 +246,7 @@
   <project path="external/yaffs2" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_external_yaffs2" groups="pdk" />
   <project path="external/zlib" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zxing" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_external_zxing" />
-  <project path="frameworks/av" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_frameworks_av" groups="pdk" />
+
   <project path="frameworks/compile/libbcc" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -268,7 +268,6 @@
   <project path="frameworks/opt/telephony-msim" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_frameworks_opt_telephony-msim" groups="pdk" />
   <project path="frameworks/opt/vcard" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_frameworks_opt_vcard" />
   <project path="frameworks/rs" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_frameworks_rs" groups="pdk" />
-
   <project path="frameworks/testing" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_frameworks_testing" />
   <project path="frameworks/volley" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_frameworks_volley" />
   <project path="frameworks/webview" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_frameworks_webview" />
@@ -279,18 +278,12 @@
   <project path="hardware/cm" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_hardware_invensense" groups="invensense" />
   <project path="hardware/libhardware" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_hardware_libhardware" groups="pdk" />
-  <project path="hardware/libhardware_legacy"  remote="local" revision="jb43" name="LOSP/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/msm7k" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_hardware_msm7k" />
   <project path="hardware/qcom/audio" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_hardware_qcom_audio" groups="qcom" />
   <project path="hardware/qcom/bt" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/display" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_hardware_qcom_display" groups="qcom" />
-  <project path="hardware/qcom/display-caf" remote="local" revision="jb43" name="LOSP/android_hardware_qcom_display-caf" groups="caf" />
-  <project path="hardware/qcom/display-legacy" remote="local" revision="jb43" name="LOSP/android_hardware_qcom_display-legacy" />
   <project path="hardware/qcom/gps" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_hardware_qcom_gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" />
-  <project path="hardware/qcom/media" remote="local" revision="jb43" name="LOSP/android_hardware_qcom_media" groups="qcom" />
-  <project path="hardware/qcom/media-caf" remote="local" revision="jb43" name="LOSP/android_hardware_qcom_media-caf" groups="caf" />
-  <project path="hardware/qcom/media-legacy" remote="local" revision="jb43" name="LOSP/android_hardware_qcom_media-legacy" />
   <project path="hardware/qcom/msm8960" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_hardware_qcom_msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/power" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_hardware_qcom_power" />
   <project path="hardware/qcom/sensors" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_hardware_qcom_sensors" />
@@ -390,7 +383,6 @@
   <project path="system/bluetooth" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_system_bluetooth" groups="pdk" />
   <project path="system/extras" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/media" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_system_media" groups="pdk" />
-  <project path="system/netd" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_system_netd" groups="pdk" />
   <project path="system/qcom" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_system_security" groups="pdk" />
   <project path="system/vold" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_system_vold" groups="pdk" />
@@ -407,7 +399,19 @@
   <project path="vendor/tmobile/apps/ThemeChooser" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" remote = "cyanogen" revision="refs/heads/cm-10.2" name="github/CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
-
+  <!-- Mione plus Start -->  
+  <project path="system/netd" remote = "github" revision="cm-10.2" name="dss16694mk/android_system_netd"/>
+  <project path="frameworks/base" remote = "github" revision="cm-10.2" name="dss16694mk/android_frameworks_base" />
+  <project path="external/wpa_supplicant_8" remote = "github" revision="cm-10.2" name="dss16694mk/android_external_wpa_supplicant_8" />
+  <project path="frameworks/av" remote = "github" revision="cm-10.2" name="dss16694mk/android_frameworks_av" />
+  <project path="system/core" remote = "github" revision="cm-10.2" name="dss16694mk/android_system_core" />
+  <project path="hardware/libhardware_legacy"  remote="github" revision="jb43" name="LOSP/android_hardware_libhardware_legacy" />
+  <project path="hardware/qcom/display-caf" remote="github" revision="jb43" name="LOSP/android_hardware_qcom_display-caf" />
+  <project path="hardware/qcom/display-legacy" remote="github" revision="jb43" name="LOSP/android_hardware_qcom_display-legacy" />
+  <project path="hardware/qcom/media" remote="github" revision="jb43" name="LOSP/android_hardware_qcom_media" />
+  <project path="hardware/qcom/media-caf" remote="github" revision="jb43" name="LOSP/android_hardware_qcom_media-caf" />
+  <project path="hardware/qcom/media-legacy" remote="github" revision="jb43" name="LOSP/android_hardware_qcom_media-legacy" />
+  <!-- Mione plus End -->  
   <!-- MoKee Bootable Start -->
   <project path="bootable/recovery" name="MoKee/android_bootable_recovery" />
   <!-- MoKee Bootable End -->
@@ -417,7 +421,7 @@
   <!-- MoKee Development End -->
 
   <!-- MoKee External Start -->
-  <project path="external/wpa_supplicant_8" name="MoKee/android_external_wpa_supplicant_8" groups="pdk" />
+  
   <project path="external/wpa_supplicant_8_ti" name="MoKee/android_external_wpa_supplicant_8_ti" />
   <project path="external/koush/Superuser" name="MoKee/android_external_koush_Superuser" />
   <!-- MoKee External End -->
@@ -452,7 +456,7 @@
   <!-- MoKee Packages Provider End -->
 
   <!-- MoKee Frameworks Start -->
-  <project path="frameworks/base" name="MoKee/android_frameworks_base" />
+  
   <project path="frameworks/opt/hardware" name="MoKee/android_frameworks_opt_hardware" />
   <project path="frameworks/opt/telephony" name="MoKee/android_frameworks_opt_telephony" />
   <project path="frameworks/support" name="MoKee/android_frameworks_support" />
@@ -462,9 +466,6 @@
   <project path="hardware/samsung" name="MoKee/android_hardware_samsung" />
   <!-- MoKee Hardware End -->
 
-  <!-- MoKee System Start -->
-  <project path="system/core" name="MoKee/android_system_core" groups="pdk" />
-  <!-- MoKee System End -->
 
   <!-- Devices Paired Start -->
   <!-- Common -->
@@ -472,11 +473,11 @@
   <project path="device/generic/goldfish" name="MoKee/android_device_generic_goldfish" groups="pdk" />
   <!-- Devices Paired End -->
   <!-- LOSP Devices -->
-  <project path="device/xiaomi/mione_plus" name="LOSP/android_device_xiaomi_mione_plus" remote="github" revision="jb43" />
-  <project path="device/xiaomi/msm8660-common" name="LOSP/android_device_xiaomi_msm8660-common" remote="github" revision="jb43" />
+  <project path="device/xiaomi/mione_plus" name="dss16694mk/android_device_xiaomi_mione_plus" remote="github" revision="jb43" />
+  <project path="device/xiaomi/msm8660-common" name="dss16694mk/android_device_xiaomi_msm8660-common" remote="github" revision="jb43" />
   
   <!-- LOSP Device Vendors -->
-  <project path="vendor/xiaomi" name="LOSP/proprietary_vendor_xiaomi" remote="github" revision="jb43" />
+  <project path="vendor/xiaomi" name="dss16694mk/proprietary_vendor_xiaomi" remote="github" revision="jb43" />
   <project path="vendor/qcom" name="LOSP/proprietary_vendor_qcom" remote="github" revision="jb43" />
   <project path="vendor/broadcom" name="LOSP/proprietary_vendor_broadcom" remote="github" revision="jb43" />
   
